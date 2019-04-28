@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>维报账邮件</title>
+    <script>
+        (function(doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function() {
+                var clientWidth = docEl.clientWidth;
+                if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 375) + 'px';
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+    <style>
+        @media screen and (min-width:1196px){
+            .wx_img{
+                width: 560px;
+                height: 560px;
+            }
+        }
+    </style>
+</head>
+<body style="margin:0;padding:0;">
+    <div style="background:#fffcdc;padding-top:1.04rem;padding-bottom:0.56rem;">
+        <div style="max-width: 750px;background:#fff;margin:auto;width: 3.75rem;box-sizing: border-box;padding: 0.32rem 0.32rem 0.05rem 0.32rem;text-align: center;">
+            <div style="text-align: center;position: relative;">
+                <img src="avtar.png" alt="" style="position: absolute;top: -0.49rem;width:0.52rem;height:0.52rem;border-radius :50%;margin-left: -0.26rem;">
+                <div style="font-family: PingFangSC-Regular;
+                    font-size: 14px;
+                    color: #1E1E1E;
+                    letter-spacing: -0.34px;
+                    text-align: center;
+                    line-height: 14px;padding-top:0.11rem;">
+                    冰激凌物语
+                </div>
+                <div style="font-family: PingFangSC-Regular;
+                    font-size: 16px;
+                    color: #1E1E1E;
+                    letter-spacing: 0.33px;
+                    line-height: 14px;
+                    margin-top: 0.16rem;">
+                “我正在收集发票，快来帮忙”
+                </div>
+            </div>
+            <div style="background: #FFE123;
+            border-radius: 4px;width: 100%;margin-top: 0.16rem;padding:0.24rem 0.16rem;box-sizing: border-box;text-align: left;">
+                <div style="font-family: PingFangSC-Medium;
+                font-size: 18px;
+                color: #1E1E1E;
+                letter-spacing: 0;
+                line-height: 18px;">上海优读信息科技有限公司</div>
+                <div style="font-family: PingFangSC-Regular;
+                margin-top:0.16rem;
+                font-size: 14px;
+                color: #1E1E1E;
+                letter-spacing: 0;
+                line-height: 14px;">纳税人识别号：913101150608926026</div>
+                <div style="margin-top:0.16rem;width: 100%;overflow: hidden;"> 
+                    <div style="width:0.42rem;font-family: PingFangSC-Regular;
+                    font-size:14px;
+                    color: #666666;
+                    letter-spacing: 0;
+                    line-height: 18px;
+                    float: left;
+                    ">地址：</div>
+                    <div style="font-family: PingFangSC-Regular;
+                    font-size: 14px;
+                    width: 2.35rem;
+                    color: #666666;
+                    letter-spacing: 0;
+                    line-height: 18px;
+                   float: left;
+                    ">上海市浦东新区纳线路60号腾飞莲花商务园5号楼202c  </div>
+                </div>
+                <div style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #666666;
+                letter-spacing: 0;
+                line-height: 14px;margin-top: 0.16rem;">电话：021-31543754865</div>
+                <div style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #666666;
+                letter-spacing: 0;
+                line-height: 14px;margin-top: 0.16rem;">开户行：中国银行金科路支行</div>
+                <div style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #666666;
+                letter-spacing: 0;
+                line-height: 14px;margin-top: 0.16rem;">银行账号：622 848 0031 7598 46717</div>
+            </div>
+            <ul style="margin-top:0.19rem;padding-left: 0;margin-bottom: 0;">
+                <li style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #1E1E1E;
+                letter-spacing: 0;
+                text-align: left;
+                min-height: 0.52rem;
+                width: 100%;
+                overflow: hidden;
+                border-bottom: 1px solid #E6E6E6;
+                list-style: none;
+                ">
+                <div style="float:left;width: 20%;font-family: PingFangSC-Regular;
+                font-size: 14px;
+                margin-top: 0.2rem;
+                color: #666666;
+                letter-spacing: 0;">发票类型</div>
+                <div style="float:right;width:70%;font-family: PingFangSC-Regular;
+                font-size: 14px;
+                margin-top: 0.2rem;
+                color: #1E1E1E;
+                letter-spacing: 0;
+                text-align: right;">增值税电子普通发票</div>
+                </li>
+                <li style="font-family: PingFangSC-Regular;
+                 font-size: 14px;
+                 color: #1E1E1E;
+                 letter-spacing: 0;
+                 text-align: left;
+                 min-height: 0.52rem;
+                 width: 100%;
+                 overflow: hidden;
+                 border-bottom: 1px solid #E6E6E6;
+                 list-style: none;
+                 ">
+                 <div style="float:left;width: 20%;font-family: PingFangSC-Regular;
+                 font-size: 14px;
+                 margin-top: 0.2rem;
+                 color: #666666;
+                 letter-spacing: 0;">发票内容</div>
+                 <div style="float:right;width:70%;font-family: PingFangSC-Regular;
+                 font-size: 14px;
+                 margin-top: 0.2rem;
+                 color: #1E1E1E;
+                 letter-spacing: 0;
+                 line-height: 0.2rem;
+                 text-align: right;">餐饮类</div>
+                </li>
+                <li style="font-family: PingFangSC-Regular;
+                  font-size: 14px;
+                  color: #1E1E1E;
+                  letter-spacing: 0;
+                  text-align: left;
+                  min-height: 0.52rem;
+                  width: 100%;
+                  overflow: hidden;
+                  border-bottom: 1px solid #E6E6E6;
+                  list-style: none;
+                  ">
+                  <div style="float:left;width: 20%;font-family: PingFangSC-Regular;
+                  font-size: 14px;
+                  margin-top: 0.2rem;
+                  color: #666666;
+                  letter-spacing: 0;">截止日期</div>
+                  <div style="float:right;width:70%;font-family: PingFangSC-Regular;
+                  font-size: 14px;
+                  margin-top: 0.2rem;
+                  color: #1E1E1E;
+                  letter-spacing: 0;
+                  text-align: right;">2019-03-31</div>
+                </li>
+                <li style="font-family: PingFangSC-Regular;
+                   font-size: 14px;
+                   color: #1E1E1E;
+                   letter-spacing: 0;
+                   text-align: left;
+                   min-height: 0.52rem;
+                   width: 100%;
+                   overflow: hidden;
+                   border-bottom: 1px solid #E6E6E6;
+                   list-style: none;
+                   ">
+                   <div style="float:left;width: 20%;font-family: PingFangSC-Regular;
+                   font-size: 14px;
+                   margin-top: 0.2rem;
+                   color: #666666;
+                   text-align: left;
+                   letter-spacing: 0;">备注</div>
+                   <div style="float:right;width:70%;font-family: PingFangSC-Regular;
+                   font-size: 14px;
+                   margin-top: 0.2rem;
+                   color: #1E1E1E;
+                   letter-spacing: 0;
+                   line-height: 0.2rem;
+                   text-align: right;">急用，请大家互相转发，谢谢！</div>
+                </li>
+                <li style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #1E1E1E;
+                letter-spacing: 0;
+                text-align: left;
+                min-height: 0.52rem;
+                width: 100%;
+                overflow: hidden;
+                border-bottom: 1px solid #E6E6E6;
+                list-style: none;
+                ">
+                <div style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                margin-top: 0.2rem;
+                margin-bottom: 0.12rem;
+                color: #666666;
+                text-align: left;
+                letter-spacing: 0;">附件</div>
+                <div style="width:110%;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    <img src="1.png" alt="" style="width:0.52rem;height:0.52rem;border-radius: 4px;margin-right: 0.1rem;margin-bottom:0.13rem;float: left;">
+                    
+                    
+                </div>
+                </li>
+            </ul>
+            <div style="margin-top:0.28rem;text-align: center;">
+                <div style="font-family: PingFangSC-Medium;
+                font-size: 18px;
+                color: #FDBE23;
+                letter-spacing: 0.38px;">扫描小程序码助TA一臂之力！</div>
+                <div style="font-family: PingFangSC-Regular;
+                font-size: 14px;
+                color: #1E1E1E;
+                letter-spacing: 0;">收票完成后，最高可获得
+                <span style="font-family: PingFangSC-Medium;
+                font-size: 20px;
+                color: #FDBE23;
+                letter-spacing: 0;">88</span>
+                微币</div>
+                <div style="margin-top:0.16rem;text-align: center;">
+                    <img src="wx.png" alt="" style="width: 2rem;height: 2rem;" class="wx_img">
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
